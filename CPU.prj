@@ -1,0 +1,7 @@
+verilog work "PCPUcontroller.v"
+verilog work "PCPU.v"
+verilog work "light_show.v"
+verilog work "I_mem.v"
+verilog work "D_mem.v"
+verilog work "clk_div.v"
+verilog work "CPU.v"

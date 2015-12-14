@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/ISE_workspace/CPU2/VTF_CPU_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="VTF_CPU" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/i_mem/mem_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_clk</obj_property>
+      <obj_property name="ObjectShortName">mem_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/id_ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">id_ir[15:0]</obj_property>
+      <obj_property name="ObjectShortName">id_ir[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/ex_ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ex_ir[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_ir[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/mem_ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_ir[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_ir[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/wb_ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_ir[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_ir[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/gr[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1,15:0]</obj_property>
+      <obj_property name="ObjectShortName">gr[1,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/gr[2]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[2,15:0]</obj_property>
+      <obj_property name="ObjectShortName">gr[2,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/gr[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3,15:0]</obj_property>
+      <obj_property name="ObjectShortName">gr[3,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/gr[4]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[4,15:0]</obj_property>
+      <obj_property name="ObjectShortName">gr[4,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/gr[5]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[5,15:0]</obj_property>
+      <obj_property name="ObjectShortName">gr[5,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/gr[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0,15:0]</obj_property>
+      <obj_property name="ObjectShortName">gr[0,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/cf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cf</obj_property>
+      <obj_property name="ObjectShortName">cf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/nf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nf</obj_property>
+      <obj_property name="ObjectShortName">nf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/zf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zf</obj_property>
+      <obj_property name="ObjectShortName">zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/reg_A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_A[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/reg_B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_B[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/reg_C" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_C[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_C[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/reg_C1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_C1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_C1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/i_datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_datain[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_datain[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/d_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/d_datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_datain[15:0]</obj_property>
+      <obj_property name="ObjectShortName">d_datain[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/d_dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_dataout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">d_dataout[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/ALUo" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUo[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUo[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/VTF_CPU/uut/pcpu/state" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+</wave_config>

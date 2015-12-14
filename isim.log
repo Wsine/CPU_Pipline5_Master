@@ -1,0 +1,129 @@
+ISim log file
+Running: E:\ISE_workspace\CPU2\VTF_CPU_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/ISE_workspace/CPU2/VTF_CPU_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+pc :     id_ir      :reg_A:reg_B:reg_C:da:dd  :w:reC1:gr1 :gr2 : gr3: dm0: dm1: dm2: dm3: dm4: dm5: dm6: dm7: dm8: dm9: dm10
+  x:xxxxxxxxxxxxxxxx:xxxx :xxxx :xxxx :xx:xxxx:x:xxxx:xxxx:xxxx:xxxx:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  0:0000000000000000:0000 :0000 :0000 :00:0000:0:0000:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  1:0100110000000100:0000 :0000 :xxxx :xx:0000:0:0000:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  2:0001000100000000:0000 :0004 :xxxx :xx:0000:0:xxxx:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  3:0001001000000100:0000 :0000 :0004 :04:0000:0:xxxx:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  3:0100001100010010:0000 :0004 :0000 :00:0000:0:0004:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  4:0100001100010010:fffe :0000 :0004 :04:0000:0:fffe:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  5:1111110100000110:fffe :ffff :fffe :fe:0000:0:ffff:fffe:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  6:0100111000000001:0000 :0006 :fffd :fd:0000:0:fffe:fffe:ffff:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  7:0100001100110111:0000 :0001 :0006 :06:0000:0:fffd:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  8:1111110100001011:fffd :0000 :0001 :01:0000:0:0006:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+  9:0101111000000000:0000 :000b :fffd :fd:fffe:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+ 11:0000000000000000:0001 :0000 :000b :0b:0000:0:fffd:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+ 12:0101011101110111:0000 :0000 :0001 :01:0000:0:000b:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+ 13:0100011101110110:0000 :0000 :0001 :01:0000:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+ 14:0101011001100110:0000 :0001 :0000 :00:0000:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+ 15:0001101100001000:0001 :0001 :0001 :01:0000:0:0000:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+ 16:0100100000000001:0000 :0008 :0000 :00:0001:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+ 17:0110000000000100:0000 :0001 :0008 :08:fffd:1:0000:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:0000:0000:0000
+ 17:0110000000000100:0000 :0001 :0008 :08:fffd:1:0000:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 18:1110010100000001:0000 :0004 :0001 :01:0000:0:0008:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 19:0000100000000000:0000 :0001 :fffc :fc:0000:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+  1:0000000000000000:0000 :0001 :0001 :01:0000:0:fffc:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+  2:0001000100000000:0000 :0000 :0001 :01:0000:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+# run 100.00us
+  3:0001001000000100:0001 :0000 :0001 :01:0001:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+  3:0100001100010010:0001 :0004 :0001 :01:fffe:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+  4:0100001100010010:fffe :ffff :0005 :05:ffff:0:fffe:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+  5:1111110100000110:fffe :ffff :fffd :fd:fffd:0:ffff:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+  6:0100111000000001:0000 :0006 :fffd :fd:fffd:0:fffd:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+  7:0100001100110111:0000 :0001 :0006 :06:0000:0:fffd:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+  8:1111110100001011:fffd :0001 :0001 :01:0000:0:0006:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+  9:0101111000000000:0000 :000b :fffe :fe:fffd:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 11:0000000000000000:0001 :0000 :000b :0b:0000:0:fffe:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 12:0101011101110111:0001 :0001 :0001 :01:0000:0:000b:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 13:0100011101110110:0001 :0001 :0001 :01:0001:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 14:0101011001100110:0000 :0001 :0000 :00:0001:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 15:0001101100001000:0001 :0001 :0001 :01:0001:0:0000:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 16:0100100000000001:0001 :0008 :0000 :00:0001:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 17:0110000000000100:0001 :0001 :0009 :09:fffe:1:0000:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:0000:0000
+ 17:0110000000000100:0001 :0001 :0009 :09:fffe:1:0000:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 18:1110010100000001:0001 :0004 :0002 :02:0001:0:0009:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 19:0000100000000000:0000 :0001 :fffd :fd:0001:0:0002:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  1:0000000000000000:0000 :0001 :0001 :01:0000:0:fffd:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  2:0001000100000000:0000 :0000 :0001 :01:0000:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  3:0001001000000100:0002 :0000 :0001 :01:0002:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  3:0100001100010010:0002 :0004 :0002 :02:fffe:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  4:0100001100010010:fffe :ffff :0006 :06:ffff:0:fffe:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  5:1111110100000110:fffe :ffff :fffd :fd:fffe:0:ffff:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  6:0100111000000001:0000 :0006 :fffd :fd:fffe:0:fffd:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  7:0100001100110111:0000 :0001 :0006 :06:0000:0:fffd:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  8:1111110100001011:fffd :0001 :0001 :01:0000:0:0006:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+  9:0101111000000000:0000 :000b :fffe :fe:fffd:0:0001:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 11:0000000000000000:0001 :0000 :000b :0b:0000:0:fffe:fffe:ffff:fffd:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 12:0101011101110111:0002 :0002 :0001 :01:0000:0:000b:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 13:0100011101110110:0001 :0001 :0001 :01:0002:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 14:0101011001100110:0000 :0001 :0000 :00:0001:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 15:0001101100001000:0001 :0001 :0001 :01:0001:0:0000:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 16:0100100000000001:0002 :0008 :0000 :00:0001:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 17:0110000000000100:0002 :0001 :000a :0a:fffe:1:0000:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:0000
+ 17:0110000000000100:0002 :0001 :000a :0a:fffe:1:0000:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 18:1110010100000001:0002 :0004 :0003 :03:0002:0:000a:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 19:0000100000000000:0000 :0001 :fffe :fe:0002:0:0003:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  1:0000000000000000:0000 :0001 :0001 :01:0000:0:fffe:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  2:0001000100000000:0000 :0000 :0001 :01:0000:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  3:0001001000000100:0003 :0000 :0001 :01:0003:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  3:0100001100010010:0003 :0004 :0003 :03:fffe:0:0001:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  4:0100001100010010:0000 :ffff :0007 :07:ffff:0:0000:fffe:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  5:1111110100000110:0000 :0000 :ffff :ff:fffe:0:0000:0000:ffff:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  6:0100111000000001:0000 :0006 :0000 :00:fffe:0:ffff:0000:0000:fffe:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  6:0000000000000000:0000 :0006 :0006 :06:0000:0:0000:0000:0000:ffff:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  7:0100001100110111:0000 :0000 :0006 :06:0000:0:0006:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  8:1111110100001011:0000 :0001 :0006 :06:0003:0:0006:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  9:0101111000000000:0000 :000b :0001 :01:0000:0:0006:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 11:0000000000000000:0000 :000b :000b :0b:0000:0:0001:0000:0000:0000:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 12:0101011101110111:0000 :0000 :000b :0b:0000:0:000b:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 13:0100011101110110:0001 :0001 :000b :0b:0003:0:000b:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 14:0101011001100110:0000 :0000 :0000 :00:0001:0:000b:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 15:0001101100001000:0000 :0000 :0000 :00:0001:0:0000:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 16:0100100000000001:0003 :0008 :0000 :00:0000:0:0000:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 17:0110000000000100:0003 :0001 :000b :0b:0001:1:0000:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 18:1110010100000001:0003 :0004 :0004 :04:0003:0:000b:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 19:0000100000000000:0000 :0001 :ffff :ff:0003:0:0004:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  1:0000000000000000:0000 :0001 :0001 :01:0000:0:ffff:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  2:0001000100000000:0000 :0000 :0001 :01:0000:0:0001:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  3:0001001000000100:0004 :0000 :0001 :01:0004:0:0001:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  3:0100001100010010:0004 :0004 :0004 :04:0000:0:0001:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  4:0100001100010010:ffff :0000 :0008 :08:0000:0:ffff:0000:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  5:1111110100000110:ffff :fffd :ffff :ff:0001:0:fffd:ffff:0000:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  6:0100111000000001:0000 :0006 :fffc :fc:0001:0:ffff:ffff:fffd:0001:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  7:0100001100110111:0000 :0001 :0006 :06:0000:0:fffc:ffff:fffd:ffff:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  8:1111110100001011:fffc :0000 :0001 :01:0000:0:0006:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+  9:0101111000000000:0000 :000b :fffc :fc:ffff:0:0001:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 11:0000000000000000:0001 :0000 :000b :0b:0000:0:fffc:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 12:0101011101110111:0004 :0004 :0001 :01:0000:0:000b:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 13:0100011101110110:0000 :0000 :0001 :01:0004:0:0001:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 14:0101011001100110:0000 :0001 :0000 :00:0000:0:0001:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 15:0001101100001000:0001 :0001 :0001 :01:0000:0:0000:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 16:0100100000000001:0004 :0008 :0000 :00:0001:0:0001:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 17:0110000000000100:0004 :0001 :000c :0c:fffc:1:0000:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 18:1110010100000001:0004 :0004 :0005 :05:0004:0:000c:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 19:0000100000000000:0000 :0001 :0000 :00:0004:0:0005:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 19:0000100000000000:0004 :0004 :0001 :01:0000:0:0000:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 19:0000100000000000:0005 :0005 :0001 :01:0004:0:0001:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+ 19:0000100000000000:0005 :0005 :0001 :01:0005:0:0001:ffff:fffd:fffc:fffe:fffe:fffe:0000:ffff:ffff:ffff:0000:fffd:fffe:fffe
+After Computing
+dm0 = fffe
+dm1 = fffe
+dm2 = fffe
+dm3 = 0000
+dm4 = ffff
+dm5 = ffff
+dm6 = ffff
+dm7 = 0000
+dm8 = fffd
+dm9 = fffe
+dm10 = fffe
+dm11 = 0001

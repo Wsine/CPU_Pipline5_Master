@@ -1,0 +1,10 @@
+Command line:
+   VTF_CPU_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49797
+
+Mon Jun 08 10:51:56 2015
+
+
+ Elaboration Time: 0.0625 sec

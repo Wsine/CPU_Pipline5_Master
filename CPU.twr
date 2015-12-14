@@ -1,0 +1,138 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\ISE14.7\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml CPU.twx CPU.ncd -o CPU.twr CPU.pcf -ucf ICF_CPU.ucf
+
+Design file:              CPU.ncd
+Physical constraint file: CPU.pcf
+Device,package,speed:     xa6slx16,csg324,I,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+button      |    0.905(R)|      FAST  |   -0.319(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock reset
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+enable      |   -1.226(R)|      FAST  |    2.851(R)|      SLOW  |PCPU_clk_BUFG     |   0.000|
+start       |   -1.252(R)|      FAST  |    2.884(R)|      SLOW  |PCPU_clk_BUFG     |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock reset to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+light<0>    |        18.676(R)|      SLOW  |         7.961(R)|      FAST  |PCPU_clk_BUFG     |   0.000|
+light<1>    |        18.249(R)|      SLOW  |         7.361(R)|      FAST  |PCPU_clk_BUFG     |   0.000|
+light<2>    |        18.456(R)|      SLOW  |         7.842(R)|      FAST  |PCPU_clk_BUFG     |   0.000|
+light<3>    |        18.358(R)|      SLOW  |         7.798(R)|      FAST  |PCPU_clk_BUFG     |   0.000|
+light<4>    |        18.430(R)|      SLOW  |         7.796(R)|      FAST  |PCPU_clk_BUFG     |   0.000|
+light<5>    |        18.394(R)|      SLOW  |         7.809(R)|      FAST  |PCPU_clk_BUFG     |   0.000|
+light<6>    |        17.956(R)|      SLOW  |         7.544(R)|      FAST  |PCPU_clk_BUFG     |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.833|         |         |         |
+reset          |    7.139|    7.139|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+reset          |    8.146|    3.463|         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW<0>          |light<0>       |   13.807|
+SW<0>          |light<1>       |   13.380|
+SW<0>          |light<2>       |   13.587|
+SW<0>          |light<3>       |   13.615|
+SW<0>          |light<4>       |   13.561|
+SW<0>          |light<5>       |   13.525|
+SW<0>          |light<6>       |   13.213|
+SW<1>          |light<0>       |   13.808|
+SW<1>          |light<1>       |   13.381|
+SW<1>          |light<2>       |   13.588|
+SW<1>          |light<3>       |   13.490|
+SW<1>          |light<4>       |   13.562|
+SW<1>          |light<5>       |   13.526|
+SW<1>          |light<6>       |   13.088|
+SW<2>          |light<0>       |   12.226|
+SW<2>          |light<1>       |   11.799|
+SW<2>          |light<2>       |   12.103|
+SW<2>          |light<3>       |   11.920|
+SW<2>          |light<4>       |   11.980|
+SW<2>          |light<5>       |   12.041|
+SW<2>          |light<6>       |   11.518|
+SW<3>          |light<0>       |   12.486|
+SW<3>          |light<1>       |   11.498|
+SW<3>          |light<2>       |   12.425|
+SW<3>          |light<3>       |   12.242|
+SW<3>          |light<4>       |   12.240|
+SW<3>          |light<5>       |   12.363|
+SW<3>          |light<6>       |   11.840|
+reset          |en<0>          |   13.361|
+reset          |en<1>          |   13.394|
+reset          |en<2>          |   13.420|
+reset          |en<3>          |   13.655|
+reset          |light<0>       |   13.561|
+reset          |light<1>       |   12.582|
+reset          |light<2>       |   13.571|
+reset          |light<3>       |   13.525|
+reset          |light<4>       |   13.315|
+reset          |light<5>       |   13.509|
+reset          |light<6>       |   13.123|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Jan 11 21:28:02 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 254 MB
+
+
+
